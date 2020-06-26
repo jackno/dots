@@ -1,0 +1,935 @@
+{
+  "coc-python|global": {
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [],
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [],
+    "/usr/bin/python2.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "9432e47893c394de1bfefbb86ec4199b5d901af959d7e39ec39e16f8a8524224ab91a70d7cad76cf0990536430d31fc0a0f3f49b7647d62583153cdb88bafdb8"
+      },
+      "expiry": 1592409726630
+    },
+    "/usr/bin/python2.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "8953c0b7d9adef111789812ac3aa795dca99a1f6c8e1a28faff846bdab91eb79648ec8c0abb7c26b41ed259d4f5e3e0afd82b9347c7059cbfaec01b2ea13b0a6"
+      },
+      "expiry": 1592409726632
+    },
+    "/usr/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "9ba1dcec1f6e931eae67f05b2e11cc86d7c0c0cc29389a70d5d522df05640745826cd5bfff52e27014427d9158f169ecb1ce55e5ef40bb5c68389580ef87fa1e"
+      },
+      "expiry": 1592409726633
+    },
+    "/Users/jack/repos/scdl/env/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/jack/repos/scdl/env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/jack/repos/scdl/env",
+        "fileHash": "05dcc7d57a18193ebaa9229c204a919b58999a27c02c7b4471e9a79d1f0b7c5b85d964d6ba29e774a2c6991d89913a08997fd9dcf688d3e598238767aff7f982"
+      },
+      "expiry": 1592409726692
+    },
+    "/Users/jack/repos/scdl/env/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/jack/repos/scdl/env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/jack/repos/scdl/env",
+        "fileHash": "c71bc04af938bf6d69e04b1866b5be8b2768990201d519ad642ceb9b61bfa2bacf68c090de61052dbf6a1fa20946b031ff248dabca78cc080409c8b9d9568e14"
+      },
+      "expiry": 1592409726741
+    },
+    "InterpreterAutoSeletionRule-environment": {
+      "architecture": 3,
+      "path": "/Users/jack/repos/scdl/env/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.3-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 3,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.3-final"
+      },
+      "sysPrefix": "/Users/jack/repos/scdl/env",
+      "fileHash": "c71bc04af938bf6d69e04b1866b5be8b2768990201d519ad642ceb9b61bfa2bacf68c090de61052dbf6a1fa20946b031ff248dabca78cc080409c8b9d9568e14",
+      "type": "VirtualEnv"
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "233389cc6571bd58a94c858db64698b6c317cdc23f6a5da43bd45ce8c6ad3cf7bd690c513915ddd7d97d560107b00a7e1639b5560bea124a7d0ba64de73a867c"
+      },
+      "expiry": 1592409726631
+    },
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7",
+        "fileHash": "400cde5cb025bf7a15e27568349b2145acccb4f0c085a70fcae89619f9d11308e5c2a429ef02da3477cf29765094334c84d3b687303b53eaaa9ee15a3ef83956"
+      },
+      "expiry": 1592409726685
+    },
+    "/Users/jack/repos/scdl/env/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "c71bc04af938bf6d69e04b1866b5be8b2768990201d519ad642ceb9b61bfa2bacf68c090de61052dbf6a1fa20946b031ff248dabca78cc080409c8b9d9568e14"
+      },
+      "expiry": 1592409726765
+    },
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7",
+        "fileHash": "71c80583413786f9a5d1cefb18dde2c7d5cb3a466eec28698856fcec06ee0e46e0a416403762da02e1da3772b739e22ea894dcc1415764b299368206abce2956",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "233389cc6571bd58a94c858db64698b6c317cdc23f6a5da43bd45ce8c6ad3cf7bd690c513915ddd7d97d560107b00a7e1639b5560bea124a7d0ba64de73a867c",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "233389cc6571bd58a94c858db64698b6c317cdc23f6a5da43bd45ce8c6ad3cf7bd690c513915ddd7d97d560107b00a7e1639b5560bea124a7d0ba64de73a867c",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/jack/repos/scdl/env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/jack/repos/scdl/env",
+        "fileHash": "c71bc04af938bf6d69e04b1866b5be8b2768990201d519ad642ceb9b61bfa2bacf68c090de61052dbf6a1fa20946b031ff248dabca78cc080409c8b9d9568e14",
+        "type": "Unknown"
+      }
+    ],
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/Users/jack/repos/scdl/env/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.3-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 3,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.3-final"
+      },
+      "sysPrefix": "/Users/jack/repos/scdl/env",
+      "fileHash": "c71bc04af938bf6d69e04b1866b5be8b2768990201d519ad642ceb9b61bfa2bacf68c090de61052dbf6a1fa20946b031ff248dabca78cc080409c8b9d9568e14",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "9ba1dcec1f6e931eae67f05b2e11cc86d7c0c0cc29389a70d5d522df05640745826cd5bfff52e27014427d9158f169ecb1ce55e5ef40bb5c68389580ef87fa1e",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "8953c0b7d9adef111789812ac3aa795dca99a1f6c8e1a28faff846bdab91eb79648ec8c0abb7c26b41ed259d4f5e3e0afd82b9347c7059cbfaec01b2ea13b0a6",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "9432e47893c394de1bfefbb86ec4199b5d901af959d7e39ec39e16f8a8524224ab91a70d7cad76cf0990536430d31fc0a0f3f49b7647d62583153cdb88bafdb8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7",
+        "fileHash": "400cde5cb025bf7a15e27568349b2145acccb4f0c085a70fcae89619f9d11308e5c2a429ef02da3477cf29765094334c84d3b687303b53eaaa9ee15a3ef83956",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "9ba1dcec1f6e931eae67f05b2e11cc86d7c0c0cc29389a70d5d522df05640745826cd5bfff52e27014427d9158f169ecb1ce55e5ef40bb5c68389580ef87fa1e",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "8953c0b7d9adef111789812ac3aa795dca99a1f6c8e1a28faff846bdab91eb79648ec8c0abb7c26b41ed259d4f5e3e0afd82b9347c7059cbfaec01b2ea13b0a6",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "9432e47893c394de1bfefbb86ec4199b5d901af959d7e39ec39e16f8a8524224ab91a70d7cad76cf0990536430d31fc0a0f3f49b7647d62583153cdb88bafdb8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7",
+        "fileHash": "400cde5cb025bf7a15e27568349b2145acccb4f0c085a70fcae89619f9d11308e5c2a429ef02da3477cf29765094334c84d3b687303b53eaaa9ee15a3ef83956",
+        "type": "Unknown"
+      }
+    ],
+    "PipEnvInformation": [],
+    "/Users/jack/repos/scdl/env/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.3 64-bit ('env': venv)",
+        "hash": "05dcc7d57a18193ebaa9229c204a919b58999a27c02c7b4471e9a79d1f0b7c5b85d964d6ba29e774a2c6991d89913a08997fd9dcf688d3e598238767aff7f982-c70d5208501fa286a3d9a1dba5550133"
+      },
+      "expiry": 1592409726755
+    },
+    "/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.3 64-bit",
+        "hash": "400cde5cb025bf7a15e27568349b2145acccb4f0c085a70fcae89619f9d11308e5c2a429ef02da3477cf29765094334c84d3b687303b53eaaa9ee15a3ef83956-ba2a007738bfecc22b96b2a748606303"
+      },
+      "expiry": 1592409726758
+    },
+    "/usr/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.16 64-bit",
+        "hash": "9ba1dcec1f6e931eae67f05b2e11cc86d7c0c0cc29389a70d5d522df05640745826cd5bfff52e27014427d9158f169ecb1ce55e5ef40bb5c68389580ef87fa1e-ef89095caa40b640ff05f416ba730c33"
+      },
+      "expiry": 1592409726756
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.16 64-bit",
+        "hash": "233389cc6571bd58a94c858db64698b6c317cdc23f6a5da43bd45ce8c6ad3cf7bd690c513915ddd7d97d560107b00a7e1639b5560bea124a7d0ba64de73a867c-149dd3630ee052e65829f7f54dc60fc9"
+      },
+      "expiry": 1592409726760
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.3-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 3,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.3-final"
+      },
+      "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7",
+      "fileHash": "71c80583413786f9a5d1cefb18dde2c7d5cb3a466eec28698856fcec06ee0e46e0a416403762da02e1da3772b739e22ea894dcc1415764b299368206abce2956",
+      "type": "Unknown",
+      "displayName": "Python 3.7.3 64-bit"
+    },
+    "/Users/jack/repos/scdl/env/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "05dcc7d57a18193ebaa9229c204a919b58999a27c02c7b4471e9a79d1f0b7c5b85d964d6ba29e774a2c6991d89913a08997fd9dcf688d3e598238767aff7f982",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/jack/repos/scdl/env/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.3-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 3,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.3-final"
+          },
+          "sysPrefix": "/Users/jack/repos/scdl/env",
+          "fileHash": "05dcc7d57a18193ebaa9229c204a919b58999a27c02c7b4471e9a79d1f0b7c5b85d964d6ba29e774a2c6991d89913a08997fd9dcf688d3e598238767aff7f982",
+          "envName": "env",
+          "type": "Venv",
+          "displayName": "Python 3.7.3 64-bit ('env': venv)"
+        }
+      },
+      "expiry": 1592409726772
+    },
+    "/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "400cde5cb025bf7a15e27568349b2145acccb4f0c085a70fcae89619f9d11308e5c2a429ef02da3477cf29765094334c84d3b687303b53eaaa9ee15a3ef83956",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.3-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 3,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.3-final"
+          },
+          "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7",
+          "fileHash": "400cde5cb025bf7a15e27568349b2145acccb4f0c085a70fcae89619f9d11308e5c2a429ef02da3477cf29765094334c84d3b687303b53eaaa9ee15a3ef83956",
+          "type": "Unknown",
+          "displayName": "Python 3.7.3 64-bit"
+        }
+      },
+      "expiry": 1592409726777
+    },
+    "/usr/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "9ba1dcec1f6e931eae67f05b2e11cc86d7c0c0cc29389a70d5d522df05640745826cd5bfff52e27014427d9158f169ecb1ce55e5ef40bb5c68389580ef87fa1e",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.16-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 16,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.16-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "9ba1dcec1f6e931eae67f05b2e11cc86d7c0c0cc29389a70d5d522df05640745826cd5bfff52e27014427d9158f169ecb1ce55e5ef40bb5c68389580ef87fa1e",
+          "type": "Unknown",
+          "displayName": "Python 2.7.16 64-bit"
+        }
+      },
+      "expiry": 1592409726775
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "233389cc6571bd58a94c858db64698b6c317cdc23f6a5da43bd45ce8c6ad3cf7bd690c513915ddd7d97d560107b00a7e1639b5560bea124a7d0ba64de73a867c",
+        "info": {
+          "architecture": 3,
+          "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.16-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 16,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.16-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "233389cc6571bd58a94c858db64698b6c317cdc23f6a5da43bd45ce8c6ad3cf7bd690c513915ddd7d97d560107b00a7e1639b5560bea124a7d0ba64de73a867c",
+          "type": "Unknown",
+          "displayName": "Python 2.7.16 64-bit"
+        }
+      },
+      "expiry": 1592409726781
+    },
+    "/Users/jack/repos/scdl/env/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.3 64-bit ('env': venv)",
+        "hash": "c71bc04af938bf6d69e04b1866b5be8b2768990201d519ad642ceb9b61bfa2bacf68c090de61052dbf6a1fa20946b031ff248dabca78cc080409c8b9d9568e14-78feca946e00533711d670c7d10cdc3e"
+      },
+      "expiry": 1592409726790
+    },
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.3-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 3,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.3-final"
+      },
+      "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7",
+      "fileHash": "71c80583413786f9a5d1cefb18dde2c7d5cb3a466eec28698856fcec06ee0e46e0a416403762da02e1da3772b739e22ea894dcc1415764b299368206abce2956",
+      "type": "Unknown",
+      "displayName": "Python 3.7.3 64-bit"
+    },
+    "/Library/Developer/CommandLineTools/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7",
+        "fileHash": "71c80583413786f9a5d1cefb18dde2c7d5cb3a466eec28698856fcec06ee0e46e0a416403762da02e1da3772b739e22ea894dcc1415764b299368206abce2956"
+      },
+      "expiry": 1592409726688
+    },
+    "InterpreterAutoSeletionRule-workspaceEnvs": {
+      "architecture": 3,
+      "path": "/Users/jack/repos/scdl/env/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.3-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 3,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.3-final"
+      },
+      "sysPrefix": "/Users/jack/repos/scdl/env",
+      "fileHash": "c71bc04af938bf6d69e04b1866b5be8b2768990201d519ad642ceb9b61bfa2bacf68c090de61052dbf6a1fa20946b031ff248dabca78cc080409c8b9d9568e14",
+      "envName": "env",
+      "type": "Venv"
+    },
+    "/Library/Developer/CommandLineTools/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.3 64-bit",
+        "hash": "71c80583413786f9a5d1cefb18dde2c7d5cb3a466eec28698856fcec06ee0e46e0a416403762da02e1da3772b739e22ea894dcc1415764b299368206abce2956-1d1dcc8bfb0a26da4a671d1a9996b504"
+      },
+      "expiry": 1592409726759
+    },
+    "/Library/Developer/CommandLineTools/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "71c80583413786f9a5d1cefb18dde2c7d5cb3a466eec28698856fcec06ee0e46e0a416403762da02e1da3772b739e22ea894dcc1415764b299368206abce2956",
+        "info": {
+          "architecture": 3,
+          "path": "/Library/Developer/CommandLineTools/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.3-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 3,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.3-final"
+          },
+          "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7",
+          "fileHash": "71c80583413786f9a5d1cefb18dde2c7d5cb3a466eec28698856fcec06ee0e46e0a416403762da02e1da3772b739e22ea894dcc1415764b299368206abce2956",
+          "type": "Unknown",
+          "displayName": "Python 3.7.3 64-bit"
+        }
+      },
+      "expiry": 1592409726779
+    },
+    "ProposeLSBanner": false
+  },
+  "coc-python|/Users/jack/repos/scdl": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:0661bb0d070fa33c08133c4bdf0de109": [],
+    "SelectedPythonPath": "/Users/jack/repos/scdl/env/bin/python3",
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:0661bb0d070fa33c08133c4bdf0de109": [
+      {
+        "architecture": 3,
+        "path": "/Users/jack/repos/scdl/env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/jack/repos/scdl/env",
+        "fileHash": "05dcc7d57a18193ebaa9229c204a919b58999a27c02c7b4471e9a79d1f0b7c5b85d964d6ba29e774a2c6991d89913a08997fd9dcf688d3e598238767aff7f982",
+        "envName": "env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/jack/repos/scdl/env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/jack/repos/scdl/env",
+        "fileHash": "c71bc04af938bf6d69e04b1866b5be8b2768990201d519ad642ceb9b61bfa2bacf68c090de61052dbf6a1fa20946b031ff248dabca78cc080409c8b9d9568e14",
+        "envName": "env",
+        "type": "Venv"
+      }
+    ],
+    "autoSelectedWorkspacePythonInterpreter-/Users/jack/repos/scdl": {
+      "architecture": 3,
+      "path": "/Users/jack/repos/scdl/env/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.3-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 3,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.3-final"
+      },
+      "sysPrefix": "/Users/jack/repos/scdl/env",
+      "fileHash": "c71bc04af938bf6d69e04b1866b5be8b2768990201d519ad642ceb9b61bfa2bacf68c090de61052dbf6a1fa20946b031ff248dabca78cc080409c8b9d9568e14",
+      "envName": "env",
+      "type": "Venv"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/jack/repos/scdl/env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/jack/repos/scdl/env",
+        "fileHash": "05dcc7d57a18193ebaa9229c204a919b58999a27c02c7b4471e9a79d1f0b7c5b85d964d6ba29e774a2c6991d89913a08997fd9dcf688d3e598238767aff7f982",
+        "envName": "env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/jack/repos/scdl/env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Users/jack/repos/scdl/env",
+        "fileHash": "c71bc04af938bf6d69e04b1866b5be8b2768990201d519ad642ceb9b61bfa2bacf68c090de61052dbf6a1fa20946b031ff248dabca78cc080409c8b9d9568e14",
+        "envName": "env",
+        "type": "Venv"
+      }
+    ]
+  }
+}
