@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "coc-explorer": ">=0.7.11",
-    "coc-python": ">=1.2.12"
-  }
-}
