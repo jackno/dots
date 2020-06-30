@@ -14,3 +14,7 @@ if [ -x "$(command -v cargo)" ]; then
 fi
 
 cat ./.cargos | xargs cargo install
+
+echo "Installing zsh-syntax-highlighting"
+mkdir -p ~/repos
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/repos/zsh-syntax-highlighting
