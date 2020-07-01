@@ -11,3 +11,5 @@ eval "$(starship init zsh)"
 # Syntax highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# Rust
+export PATH=$HOME/.cargo/bin:$PATH

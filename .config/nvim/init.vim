@@ -23,6 +23,10 @@ Plug 'itchyny/lightline.vim'
 " Commenting made easy
 Plug 'tpope/vim-commentary'
 
+" Snippets
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
 call plug#end()
 
 " Enable fzf (installed with Homebrew)
@@ -90,6 +94,11 @@ nmap <leader>/ :let @/ = ""<CR>
 " Open coc-explorer
 nmap <leader>e :CocCommand explorer<CR>
 
+" Expand snippet, go forward, or back
+let g:UltiSnipsExpandTrigger='<c-space>'
+let g:UltiSnipsJumpForwardTrigger='<c-l>'
+let g:UltiSnipsJumpBackwardTrigger='<c-h>'
+
 " Use system clipboard
 set clipboard+=unnamedplus
 
@@ -98,6 +107,13 @@ au FileType * set fo-=c fo-=r fo-=o
 
 " Delete trailing whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
+
+" When opening a directory, use coc-explorer
+augroup CocExplorer
+  autocmd!
+  autocmd VimEnter * sil! au! FileExplorer *
+  autocmd BufEnter * let d = expand('%') | if isdirectory(d) | bd | exe 'CocCommand explorer ' . d | endif
+augroup END
 
 " Save last position in file
 autocmd BufReadPost *
