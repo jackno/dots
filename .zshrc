@@ -2,6 +2,9 @@
 # Plugins
 # -------
 
+# Aliases
+alias activate='source env/bin/activate'
+
 # Starship prompt
 eval "$(starship init zsh)"
 
