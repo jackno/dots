@@ -2,6 +2,9 @@
 # Plugins
 # -------
 
+# Aliases
+alias activate='source env/bin/activate'
+
 # Starship prompt
 eval "$(starship init zsh)"
 
@@ -9,7 +12,7 @@ eval "$(starship init zsh)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Syntax highlighting
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/repos/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Rust
 export PATH=$HOME/.cargo/bin:$PATH
