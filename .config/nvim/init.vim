@@ -24,8 +24,12 @@ Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-commentary'
 
 " Snippets
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
+" Plug 'SirVer/ultisnips'
+" Plug 'honza/vim-snippets'
+
+" Copy and paste an image right into Neovim
+" Plug 'wookayin/imagepaste.vim', { 'for': 'markdown' }
+Plug 'jackno/md-img-paste.vim', { 'for': 'markdown', 'branch': '#33'}
 
 call plug#end()
 

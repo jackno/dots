@@ -2,9 +2,6 @@
 # Plugins
 # -------
 
-# Aliases
-alias activate='source env/bin/activate'
-
 # Starship prompt
 eval "$(starship init zsh)"
 
@@ -16,3 +13,10 @@ source ~/repos/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Rust
 export PATH=$HOME/.cargo/bin:$PATH
+
+# -------
+# Aliases
+# -------
+
+alias activate='source env/bin/activate'
+alias ls='exa'
