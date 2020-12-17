@@ -20,3 +20,7 @@ export PATH=$HOME/.cargo/bin:$PATH
 
 alias activate='source env/bin/activate'
 alias ls='exa'
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="/usr/local/opt/ruby/bin:$PATH"
