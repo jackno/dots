@@ -6,67 +6,59 @@
 # Installs brew to the home directory
 if [ ! -x "$(command -v brew)" ]; then
     echo 'Installing Homebrew...'
-    mkdir -p ~/.brew
-    git clone 'https://github.com/Homebrew/brew.git' ~/.brew
+    mkdir -p $HOME/.brew
+    git clone 'https://github.com/Homebrew/brew.git' $HOME/.brew
 
     echo 'Adding homebrew to your path'
-    if [ -w ~/.bashrc ]; then
-        echo '' >> ~/.bashrc
-        echo '# Add brew to the path' >> ~/.bashrc
-        echo 'export PATH=$HOME/.brew/bin:$PATH' >> ~/.bashrc
+    if [ -w $HOME/.bashrc ]; then
+        echo '' >> $HOME/.bashrc
+        echo '# Add brew to the path' >> $HOME/.bashrc
+        echo 'export PATH=$HOME/.brew/bin:$PATH' >> $HOME/.bashrc
     fi
-    if [ -w ~/.zshrc ]; then
-        echo '' >> ~/.zshrc
-        echo '# Add brew to the path' >> ~/.zshrc
-        echo 'export PATH=$HOME/.brew/bin:$PATH' >> ~/.bashrc
+    if [ -w $HOME/.zshrc ]; then
+        echo '' >> $HOME/.zshrc
+        echo '# Add brew to the path' >> $HOME/.zshrc
+        echo 'export PATH=$HOME/.brew/bin:$PATH' >> $HOME/.bashrc
     fi
 fi
 
 echo 'Installing brews from .brews'
-cat ./.brews | xargs ~/.brew/bin/brew install
+cat $PWD/.brews | xargs $HOME/.brew/bin/brew install
 
 # Installs Rust to the home directory
 if [ -x "$(command -v cargo)" ]; then
     echo 'Installing Rust...'
-    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+    curl --proto '=https' -sSf https://sh.rustup.rs | sh
 
     echo 'Adding Rust to your path'
-    if [ -w ~/.bashrc ]; then
-        echo '' >> ~/.bashrc
-        echo '# Add rust to the path' >> ~/.bashrc
-        echo 'export PATH=$HOME/.cargo/bin:$PATH' >> ~/.bashrc
+    if [ -w $HOME/.bashrc ]; then
+        echo '' >> $HOME/.bashrc
+        echo '# Add rust to the path' >> $HOME/.bashrc
+        echo 'export PATH=$HOME/.cargo/bin:$PATH' >> $HOME/.bashrc
     fi
-    if [ -w ~/.zshrc ]; then
-        echo '' >> ~/.zshrc
-        echo '# Add rust to the path' >> ~/.zshrc
-        echo 'export PATH=$HOME/.cargo/bin:$PATH' >> ~/.zshrc
+    if [ -w $HOME/.zshrc ]; then
+        echo '' >> $HOME/.zshrc
+        echo '# Add rust to the path' >> $HOME/.zshrc
+        echo 'export PATH=$HOME/.cargo/bin:$PATH' >> $HOME/.zshrc
     fi
 fi
 
 echo 'Installing crates from .crates'
-cat ./.crates | xargs ~/.cargo/bin/cargo install
-
-if [ ! -e ~/repos/zsh-syntax-highlighting ]; then
-    echo 'Installing zsh-syntax-highlighting...'
-    mkdir -p ~/repos
-    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/repos/zsh-syntax-highlighting
-    echo '' >> ~/.zshrc
-    echo '# Enable syntax highlighting' >> ~/.zshrc
-    echo 'source ~/repos/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh' >> ~/.zshrc
-fi
+cat $PWD/.crates | xargs $HOME/.cargo/bin/cargo install
 
 # Installs neovim config
-if [ ! -L ~/.config/nvim ]; then
+if [ ! -L $HOME/.config/nvim ]; then
     echo 'Installing neovim configuration...'
-    ln -s $PWD/.config/nvim/init.vim ~/.config/nvim/init.vim
-    ln -s $PWD/.config/nvim/ftplugin/ ~/.config/nvim/ftplugin/
-    ln -s $PWD/.config/nvim/coc-settings.json ~/.config/nvim/coc-settings.json
+    mkdir -p $HOME/.config/nvim/ftplugin
+    ln -s $PWD/.config/nvim/init.vim $HOME/.config/nvim/init.vim
+    ln -s $PWD/.config/nvim/ftplugin/ $HOME/.config/nvim/ftplugin/
+    ln -s $PWD/.config/nvim/coc-settings.json $HOME/.config/nvim/coc-settings.json
 fi
 
 # Installs starship config
-if [ ! -L ~/.config/starship.toml ]; then
+if [ ! -L $HOME/.config/starship.toml ]; then
     echo 'Installing Starship configuration...'
-    ln -s `pwd`/.config/starship.toml ~/.config/starship.toml
+    ln -s $PWD/.config/starship.toml $HOME/.config/starship.toml
 fi
 
 # Install nvim plugins silently
@@ -79,5 +71,5 @@ nvim --headless +'CocInstall -sync coc-json coc-explorer coc-python' +qall
 
 echo ''
 echo 'To use the installed tools, restart your terminal or do:'
-echo '  bash: source ~/.bashrc'
-echo '  zsh: source ~/.zshrc'
+echo '  bash: source $HOME/.bashrc'
+echo '  zsh: source $HOME/.zshrc'

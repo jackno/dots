@@ -103,9 +103,6 @@ let g:UltiSnipsExpandTrigger='<c-space>'
 let g:UltiSnipsJumpForwardTrigger='<c-l>'
 let g:UltiSnipsJumpBackwardTrigger='<c-h>'
 
-" Use system clipboard
-set clipboard+=unnamedplus
-
 " Disable comment continuation
 au FileType * set fo-=c fo-=r fo-=o
 

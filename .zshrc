@@ -32,3 +32,8 @@ export PATH="/usr/local/opt/ruby/bin:$PATH"
 # Vi mode
 bindkey -v
 export KEYTIMEOUT=1
+
+# tab multiplexer configuration: https://github.com/austinjones/tab-rs/
+# source "/Users/jack/Library/Application Support/tab/completion/zsh-history.zsh"
+# end tab configuration
+
